@@ -1,23 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-unused-vars */
+import React, { useState } from 'react'
+import Scoreboard from './components/Scoreboard'
+import Cards from './components/Cards'
+import './styles/App.css'
 
-function App() {
+const App = () => {
+  const [score, setScore] = useState(0)
+
+  const [highScore, setHighScore] = useState(0)
+  
+  const [announcement, setAnnouncement] = useState('')
+
+  const [card, setCard] = useState([
+    {
+      name: 'Ned Stark',
+      image: 'ned'
+    },
+     {
+      name: 'Robert Baratheon',
+      image: 'robert'
+    },
+    {
+      name: 'Barristan Selmy',
+      image: 'selmy'
+    },
+    {
+      name: 'Jon Snow',
+      image: 'jon'
+    },
+    {
+      name: 'Tyrion Lannister',
+      image: 'tyrion'
+
+    },
+    {
+      name: 'Jaime Lannister',
+      image: 'jaime'
+    },
+    {
+      name: 'Daenerys Targaryen',
+      image: 'daenerys'
+    },
+    {
+      name: 'Jorah Mormont',
+      image: 'jorah'
+    },
+    {
+      name: 'Arthur Dayne',
+      image: 'arthur'
+    } 
+  ])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="container">
+
+      <Scoreboard score={score} highScore={highScore} announcement={announcement}/>
+      <Cards card={card} score={score} setScore={setScore} setHighScore={setHighScore} setAnnouncement={setAnnouncement}/>
+    
     </div>
   );
 }
