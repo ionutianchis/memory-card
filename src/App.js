@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Scoreboard from './components/Scoreboard'
 import Cards from './components/Cards'
+import Footer from './components/Footer'
 import './styles/App.css'
 
 const App = () => {
@@ -56,7 +57,7 @@ const App = () => {
 
       <Scoreboard score={score} highScore={highScore} announcement={announcement}/>
       <Cards card={card} score={score} setScore={setScore} setHighScore={setHighScore} setAnnouncement={setAnnouncement}/>
-    
+      <Footer></Footer>
     </div>
   );
 }
