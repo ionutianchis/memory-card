@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.067b23d6.chunk.css",
-    "main.js": "/memory-card/static/js/main.6d959942.chunk.js",
-    "main.js.map": "/memory-card/static/js/main.6d959942.chunk.js.map",
+    "main.css": "/memory-card/static/css/main.8b10e842.chunk.css",
+    "main.js": "/memory-card/static/js/main.74be25e9.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.74be25e9.chunk.js.map",
     "runtime-main.js": "/memory-card/static/js/runtime-main.73480ed4.js",
     "runtime-main.js.map": "/memory-card/static/js/runtime-main.73480ed4.js.map",
     "static/js/2.dac0100c.chunk.js": "/memory-card/static/js/2.dac0100c.chunk.js",
     "static/js/2.dac0100c.chunk.js.map": "/memory-card/static/js/2.dac0100c.chunk.js.map",
     "index.html": "/memory-card/index.html",
-    "static/css/main.067b23d6.chunk.css.map": "/memory-card/static/css/main.067b23d6.chunk.css.map",
+    "static/css/main.8b10e842.chunk.css.map": "/memory-card/static/css/main.8b10e842.chunk.css.map",
     "static/js/2.dac0100c.chunk.js.LICENSE.txt": "/memory-card/static/js/2.dac0100c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/memory-card/static/media/background.abe51c7e.jpg",
     "static/media/arthur.png": "/memory-card/static/media/arthur.1eb297e4.png",
     "static/media/daenerys.png": "/memory-card/static/media/daenerys.1a5d389d.png",
+    "static/media/Footer.css": "/memory-card/static/media/github-icon.a9182f20.svg",
     "static/media/jaime.png": "/memory-card/static/media/jaime.ba6e718d.png",
     "static/media/jon.png": "/memory-card/static/media/jon.a1737f97.png",
     "static/media/jorah.png": "/memory-card/static/media/jorah.a327c531.png",
@@ -24,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.73480ed4.js",
     "static/js/2.dac0100c.chunk.js",
-    "static/css/main.067b23d6.chunk.css",
-    "static/js/main.6d959942.chunk.js"
+    "static/css/main.8b10e842.chunk.css",
+    "static/js/main.74be25e9.chunk.js"
   ]
 }
